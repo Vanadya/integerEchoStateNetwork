@@ -1,0 +1,60 @@
+*
+!*/
+
+!README
+
+!*.gitignore
+
+
+!*.hex
+!*.coe
+!*.pcm
+#user Constrain file
+!*.ucf
+#ISE project
+!*.xise
+
+#sorce HDL
+!src/*.v
+!src/*.vhd
+!control_FMCOMM4
+!src/**/*.v
+!src/**/*.xco
+
+#sorce matlab
+!src/matlab/*.m
+!src/matlab/*.slx
+!src/matlab/*.dat
+!src/matlab/*.mat
+!src/matlab/*.v
+!src/matlab/*.vhd
+
+
+# tb
+!tb/*.v
+!tb/*.vhd
+!tb/*.hex
+
+
+# ipcore
+!*/ipcore/*.xco
+!*/ipcore/*.coe
+!*/ipcore/*.hex
+
+# doc
+!doc/*.vsd
+!doc/*.doc
+!doc/*.docx
+!doc/*.xls
+!doc/*.xlsx
+!doc/*.pdf
+!doc/*.jpg
+
+
+#modelsim
+!/*.do
+!/*.udo
+!/*.ini
+
+!readme.txt
+/work
